@@ -1,0 +1,4 @@
+# Downloaded / generated when the audit runs; not source
+pylib/
+node_modules/
+out/

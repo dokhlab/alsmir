@@ -1,0 +1,165 @@
+The miRBase Sequence Database -- Release 23.1 (Sep 2026)
+--------------------------------------------------------
+
+1. SUMMARY
+
+The miRBase database provides a searchable online repository for
+published microRNA sequences and associated annotation. miRBase also
+provides a gene naming and nomenclature function.
+
+Release 23.1 of the database contains 46603 entries representing hairpin
+precursor miRNAs, expressing 74463 mature miRNA products, in 323
+species. The data are freely available to all through the web
+interface at http://www.mirbase.org/.
+
+
+2. CHANGES SINCE RELEASE 23
+
+589 misannotated hairpin sequences and 1078 mature sequences have been
+deleted from the database. 6 hairpin sequences and 9 mature sequences
+have been renamed. 2 mature entries have had their sequences
+changed. See the miRNA.diff file for the full description of changes.
+
+
+2.1 CHANGES BETWEEN RELEASE 22 and 23
+
+8847 new hairpin sequences and 27005 new mature products have been
+added. The first miRNAs in 47 new species are reported.
+
+20514 mature sequences have had their names clarified, usually upon
+the addition of a 2nd mature product from the same locus. For example,
+hsa-miR-107 is renamed to hsa-miR-107-3p on the addition of
+hsa-miR-107-5p to the database.
+
+The sequences of 9091 mature products have changed, the overwhelming
+number of which have had their 5' or 3' ends adjusted based on large
+scale small RNA deep sequencing data.
+
+244 misannotated hairpin sequences, and 361 mature sequences sequences
+have been deleted from the database.
+
+
+3. FILES
+
+The following files are available for download from the website:
+
+  hairpin.fa    - predicted miR stem-loop sequences in fasta format
+  mature.fa     - mature sequences in fasta format
+  miRNA.dead    - entries removed from the database
+  miRNA.diff    - differences between the current and last release
+
+The genomes/ directory contains gff files of genome coordinates for 31
+species. See the individual files for the genome assemblies used.
+
+
+4. LICENSE
+
+miRBase is in the public domain. It is not copyrighted.  You may
+freely modify, redistribute, or use it for any purpose.  See
+https://mirbase.org/download/LICENSE for details.
+
+
+5. HOW TO CITE THE miRNA DATABASE
+
+The miRBase database is described in the following articles:
+
+miRBase: from microRNA sequences to function. 
+Kozomara A, Birgaoanu M, Griffiths-Jones S.
+Nucleic Acids Res. 2019 47:D155-D162
+https://dx.doi.org/10.1093/nar/gky1141
+
+miRBase: annotating high confidence microRNAs using deep sequencing
+data.
+Kozomara A, Griffiths-Jones S.
+Nucleic Acids Res. 2014 42:D68-D73
+https://dx.doi.org/10.1093/nar/gkt1181
+
+miRBase: integrating microRNA annotation and deep-sequencing data.
+Kozomara A, Griffiths-Jones S.
+Nucleic Acids Res. 2011 39:D152-D157
+
+miRBase: tools for microRNA genomics.
+Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ.
+Nucleic Acids Res. 2008 36:D154-D158
+
+miRBase: microRNA sequences, targets and gene nomenclature.
+Griffiths-Jones S, Grocock RJ, van Dongen S, Bateman A, Enright AJ.
+Nucleic Acids Res. 2006 34:D140-D144
+
+The miRNA Registry.
+Griffiths-Jones S.
+Nucleic Acids Res. 2004 32:D109-D111
+
+Please cite us if you use the data we distribute, but also be sure to
+cite the primary sources of miRNA sequences in your work.
+
+Guidelines to miRNA annotation are published here:
+
+A uniform system for microRNA annotation.
+Ambros V, Bartel B, Bartel DP, Burge CB, Carrington JC, Chen X, 
+Dreyfuss G, Eddy SR, Griffiths-Jones S, Marshall M, Matzke M,
+Ruvkun G, Tuschl T. 
+RNA 2003 9(3):277-279
+
+Criteria for annotation of plant MicroRNAs.
+Meyers BC, Axtell MJ, Bartel B, Bartel DP, Baulcombe D, Bowman JL, Cao
+X, Carrington JC, Chen X, Green PJ, Griffiths-Jones S, Jacobsen SE,
+Mallory AC, Martienssen RA, Poethig RS, Qi Y, Vaucheret H, Voinnet O,
+Watanabe Y, Weigel D, Zhu JK.
+Plant Cell. 2008 20(12):3186-3190
+
+
+6. FEEDBACK
+
+Any queries about data, web services, naming requests or other
+feedback should be directed to mirbase@gmail.com.
+
+
+7. HISTORY
+
+Version       Date       Entries
+
+  1.0         12/02        218
+  1.1         01/03        262
+  1.2         04/03        295
+  1.3         05/03        332
+  1.4         07/03        345
+  2.0         07/03        506
+  2.1         09/03        558
+  2.2         11/03        593
+  3.0         01/04        719
+  3.1         04/04        899
+  4.0         07/04       1185
+  5.0         09/04       1345
+  5.1         12/04       1420
+  6.0         04/05       1650
+  7.0         06/05       2909
+  7.1         10/05       3424
+  8.0         02/06       3518
+  8.1         05/06       3963
+  8.2         07/06       4039
+  9.0         10/06       4361
+  9.1         02/07       4449
+  9.2         05/07       4584
+ 10.0         08/07       5071
+ 10.1         12/07       5395
+ 11.0         04/08       6396
+ 12.0         09/08       8619
+ 13.0         03/09       9539
+   14         09/09      10883
+   15         04/10      14197
+   16         08/10      15172
+   17         04/11      16772
+   18         11/11      18226
+   19         08/12      21264
+   20	      06/13	 24521
+   21	      06/14	 28645
+   22         03/18      38589
+   22.1	      10/19	 38589
+   22.2	      11/21	 38589
+   23	      08/26	 47192
+   23.1	      09/26	 46603
+
+
+--
+SGJ

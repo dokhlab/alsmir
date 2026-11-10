@@ -1,0 +1,34 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist.*/
+__pycache__/
+
+# Generated from the workbook by build_dataset.py (dataset.json is kept so the site builds without Python)
+alsmir.db
+alsmir.db.tmp
+
+# Local editor/agent settings
+.claude/
+
+# Large or historical source material kept on the server only
+*.pptx
+*.zip
+UVA_Centered_Logo/
+logo/
+TABLE_DATABASE_V02.xlsx
+2026_TABLE_DATABASE_V03.xlsx
+2026_TABLE_DATABASE_V04.xlsx
+bun.lock
+bun.lockb
+
+# Internal review reports (contain security details)
+REVIEW_*.md
+*_curation_checklist.xlsx
+audit/out/
+audit/pylib/
+audit/node_modules/
+2026_TABLE_DATABASE_V05.xlsx
+*.docx
+REDA_*.xlsx
+REVISION_*.md

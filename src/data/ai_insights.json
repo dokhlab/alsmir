@@ -1,0 +1,14 @@
+{
+  "hsa-miR-206": {
+    "summary": "miR-206 is a well-characterized skeletal muscle-specific microRNA (myomiR). In ALS, miR-206 is frequently upregulated in skeletal muscle and blood plasma as a compensatory response to denervation, promoting neuromuscular junction re-innervation and potentially slowing disease progression.",
+    "hairpinSequence": "UGCUUCCCGAGGCCACAUGCUUCUUUAUAUCCCCAUAUGGAUUACUUUGCUAUGGAAUGUAAGGAAGUGUGUGGUUUCGGCAAGUG",
+    "validatedTargets": ["HDAC4", "BDNF", "IGF1", "FGF", "TIMP3"],
+    "predictedTargets": ["FUS", "TARDBP", "VAMP2", "GABRB2"]
+  },
+  "hsa-let-7a-5p": {
+    "summary": "The let-7 family members, including let-7a, are highly abundant miRNAs in the central nervous system involved in neural differentiation and stem cell regulation. They have been linked to neuroinflammation and dysregulation in various neurodegenerative diseases, including ALS, where they may interact with TDP-43 and FUS pathology.",
+    "hairpinSequence": "UGGGAUGAGGUAGUAGGUUGUAUAGUUUUAGGGUCACACCCACCACUGGGAGAUAACUAUACAAUCUACUGUCUUUCCUA",
+    "validatedTargets": ["HMGA2", "RAS", "MYC", "CASP3"],
+    "predictedTargets": ["ATXN2", "C9orf72", "NEFL"]
+  }
+}
